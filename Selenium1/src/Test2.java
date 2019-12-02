@@ -25,8 +25,6 @@ public class Test2 {
 		googleTextBox.sendKeys("2+2");
 		Thread.sleep(1000);
 		
-		
-		
 		Actions builder = new Actions(driver);
 //		builder.keyDown(Keys.ENTER).perform();
 		builder.sendKeys(Keys.ENTER);
